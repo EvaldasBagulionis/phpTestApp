@@ -4,11 +4,48 @@
  include "autoloader.php";
 
  ?>
-<form method="get" action="<?php echo $_SERVER['PHP_SELF'];?>">
-   <label for="filename">File name:</label>
-   <input type="text" id="filename" name="filename"><br><br>
-   <input type="submit" value="Submit">
- </form>
+
+
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8" content="width=device-width">
+        <title>phpTestApp</title>
+    </head>
+    <body>
+        <header>
+            <div id="brand">
+                <h1>phpTestApp</h1>
+            </div>
+        </header>
+        <div>
+            <form method="get" action="<?php echo $_SERVER['PHP_SELF'];?>">
+               <label for="filename">File name:</label>
+               <input type="text" id="filename" name="filename"><br><br>
+               <input type="submit" value="Submit">
+             </form>
+        </div>
+    </body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
  <?php
 //Calls Main class
