@@ -1,0 +1,76 @@
+html{
+    position: relative;
+    height: 100%;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    line-height: 1.5;
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    background:url('../img/background.jpg') no-repeat;
+    background-size : cover;
+    padding-top: 0px;
+    height: 100%;
+    background-attachment: fixed;
+}
+header{
+    background: #35424a;
+    color: #ffffff;
+    padding-top: 30px;
+    min-height: 70px;
+    border-bottom: #e8491d 3px solid;
+}
+header a{
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 32px;
+    margin-bottom: 0px;
+}
+header #brand{
+    float: right;
+    margin-right: 30%;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}
+header a:hover{
+    color: #e8491d;
+}
+header h1{
+    margin-bottom: 0px;
+}
+form{
+    padding: 0;
+    margin: 0;
+    margin-left: 40%;
+}
+footer{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    background: #35424a;
+    color: #ffffff;
+    padding-top: 30px;
+    border-top: #e8491d 3px solid;
+}
+input[type="submit"]{
+    margin-left: 71px;
+}
+.container{
+    width: 80%;
+    margin: auto;
+    margin-top: 0px;
+    background: #ffffff;
+    min-height: 100%;
+    border-bottom: #e8491d 3px solid;
+    border-left: #e8491d 3px solid;
+    border-right: #e8491d 3px solid;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+#content{
+    padding-left: 50px;
+}
